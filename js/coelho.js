@@ -10,7 +10,7 @@ function coelho(){
 
 function cow(){
     let img = document.getElementById("imageBunny");
-    let frase = document.getElementById("frase");
+    let frase = document.querySelector("#frase");
     img.setAttribute("src", "assets/cow.gif");
     frase.textContent = "VOCE NUNCA ESTÁ 100% SEGURO!!";
 }
