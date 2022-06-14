@@ -12,6 +12,36 @@
     align-self: center;
     background-color: rgba($color: #000000, $alpha: 0.9);
     color: white;
+    .cape {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        .names {
+            font-size: 16px;
+            height: 24px;
+            margin-bottom: 20px;
+        }
+        .title {
+            display: flex;
+            text-align: center;
+            align-self: center;
+            justify-content: center;
+            margin-bottom: 40px;
+            h1 {
+                font-size: 32px;
+            }
+        }
+        .image{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                height: 400px;
+            }
+        }
+    }
     .primary{
         display: flex;
         width: 100%;

@@ -14,7 +14,7 @@ function next() {
 }
 
 function previous() {
-    if (page == 1){
+    if (page == 0){
         console.log("Você já está na primeira página!")
     }else {
         page--;
@@ -26,6 +26,21 @@ function previous() {
 
 function content(page){
     switch (page) {
+        case 0: 
+        div.innerHTML = `
+        <div class="cape">
+            <div class="names">
+                <p> Alunos: Thiago e Heroldi </p>
+            </div>
+            <div class="title">
+                <h1> Cartilha de Segurança </h1>
+            </div>
+            <div class="image">
+                <img src="assets/morfeu.jpg" alt="">
+            </div>
+        </div>
+        `
+        break;
         case 1: 
         div.innerHTML = `
         <div class="primary">
