@@ -12,5 +12,5 @@ function cow(){
     let img = document.getElementById("imageBunny");
     let frase = document.getElementById("frase");
     img.setAttribute("src", "assets/cow.gif");
-    img.textContent = "VOCE NUNCA ESTÁ 100% SEGURO!!";
+    frase.textContent = "VOCE NUNCA ESTÁ 100% SEGURO!!";
 }
