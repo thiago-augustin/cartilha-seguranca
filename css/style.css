@@ -195,4 +195,11 @@ canvas {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.coelho .egg {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+}
 /*# sourceMappingURL=style.css.map */

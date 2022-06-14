@@ -7,3 +7,8 @@ function coelho(){
     }, 200)
     
 }
+
+function cow(){
+    let img = document.getElementById("imageBunny");
+    img.setAttribute("src", "assets/cow.gif")
+}
