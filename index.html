@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cartilha</title>
+</head>
+
+<body id="bodyContent">
+    <div class="coelho">
+        <img src="assets/white-rabit.gif" alt="" id="imageBunny" onclick="coelho();content(1);">
+    </div>
+    
+    <canvas id="matrix"></canvas>
+    <div class="content" id="content">
+
+    </div>
+    <div class="navigation">
+        <div class="previous nav-button" onclick="previous();"><img src="assets/arrow-left.svg" alt=""></div>
+        <div class="page-number"><p class="number" id="number"> 1 </p></div>
+        <div class="next nav-button" onclick="next();"><img src="assets/arrow-right.svg" alt=""></div>
+    </div>
+    <script src="js/matrix.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/coelho.js"></script>
+</body>
+</html>
