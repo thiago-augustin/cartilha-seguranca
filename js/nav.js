@@ -1,4 +1,4 @@
-var page = 1;
+var page = 0;
 var number = document.getElementById("number");
 var div = document.getElementById("content");
 
